@@ -2,7 +2,7 @@
 numero = input("Digite um número de até 4 dígitos (0 a 9999): ")
 
 # Verifica se o número está dentro do intervalo permitido
-if numero.isdigit() and 0 <= int(numero) <= 9999:
+if  0 <= int(numero) <= 9999:
     soma = 0  # Variável para armazenar a soma dos algarismos
 
     # Para cada caractere do número, converte para inteiro e soma
